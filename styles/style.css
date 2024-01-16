@@ -252,6 +252,8 @@ font-weight: 400;
  .gallery-container{
     display: flex;
     flex-wrap: wrap;
+    
+    gap: 10px;
    
 
  }
@@ -268,6 +270,10 @@ flex-shrink: 0;
    border-radius: 20px;
     
     
+ }
+ .single-gallery h1{
+    
+  
  }
 
  /* card styles */ 
@@ -361,6 +367,8 @@ font-weight: 800;
 font-size: 16px;
 
 font-weight: 400;
+padding: 10px;
+
 
 }
 input{
@@ -368,6 +376,8 @@ input{
 height: 52px;
 border-radius: 8px;
 background: rgba(19, 19, 24, 0.05);
+margin: 10PX;
+
 
 }
 .special1{
@@ -385,6 +395,7 @@ percent{
     align-items: center;
     width: 50%;
     gap: 5px;
+    
    
 }
 .discount{
@@ -392,6 +403,7 @@ percent{
 height: 120px;
 transform: rotate(-19.628deg);
 background-color: #FF5400;
+
 
 
 }
