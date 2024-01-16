@@ -1,0 +1,29 @@
+@media screen and (max-width:600px) and (max-width:992px){
+    .header-section{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 50px;
+    }
+    .items-container{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 50px;
+        
+        }
+        .input-box{
+            flex-direction: column;
+        justify-content: center;
+        margin-left: 50px;
+
+        }
+        .banner-text{
+            flex-direction: column;
+        justify-content: center;
+        margin-left: 50px;
+
+        }
+       
+       
+    }
+    
+    
