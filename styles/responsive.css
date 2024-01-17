@@ -13,18 +13,21 @@
         width: 50%;
         flex-direction: column;
         justify-content: center;
+        
        }
 
        .popular-image img{
         width: 50%;
         flex-direction: column;
         justify-content: center;
+        
        }
         .popular-content{
 
             width: 50%;
         flex-direction: column;
         justify-content: center;
+        
         }
         .single-product1{
 
@@ -78,6 +81,24 @@
 
         }
 
+    }
+
+    @media (max-width:600px){
+        .container{
+            width: 450px;
+        }
+        .heading{
+            width: 95%;
+        }
+        .heading h2{
+            font-size: 30px;
+        }
+        .gallery{
+            grid-template-columns: 1fr;
+        }
+        .gallery .item{
+            grid-column: auto;
+        }
     }
     
     
