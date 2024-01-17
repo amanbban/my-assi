@@ -8,22 +8,77 @@
         flex-direction: column;
         justify-content: center;
         margin-left: 50px;
-        
         }
-        .input-box{
-            flex-direction: column;
+       .input-box{
+        width: 50%;
+        flex-direction: column;
         justify-content: center;
-        margin-left: 50px;
+       }
+
+       .popular-image img{
+        width: 50%;
+        flex-direction: column;
+        justify-content: center;
+       }
+        .popular-content{
+
+            width: 50%;
+        flex-direction: column;
+        justify-content: center;
+        }
+        .single-product1{
+
+
+            width: 50%;
+            flex-direction: column;
+            justify-content: center;
 
         }
-        .banner-text{
+        .single-product2{
+
+
+            width: 50%;
             flex-direction: column;
-        justify-content: center;
-        margin-left: 50px;
+            justify-content: center;
 
         }
-       
-       
+        .single-product3{
+
+
+            width: 50%;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+        .form-container{
+            width: 50%;
+            flex-direction: column;
+            justify-content: center;
+
+
+        }
+        .form-container{
+
+            width: 50%;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+        .percent{
+            width: 50%;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .percent img{
+            display: grid;
+
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+
     }
     
     
+   

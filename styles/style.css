@@ -88,7 +88,8 @@ font-weight: 400;
     max-width: 1250px;
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
-    order: 2;
+    background-size: cover;
+  
    
    
 }
@@ -117,7 +118,7 @@ padding-top: 106px;
     font-weight: 400;
     padding-top: 50px;
     padding-bottom: ;
-   padding-left:247px ;
+   padding-left:150px ;
    padding-right: 24px;
 }
 .input-box{
@@ -125,7 +126,7 @@ padding-top: 106px;
     width: 100%;
     display: inline-flex;
     padding:50px;
-    padding-left: 185px;
+    padding-left: 140px;
     gap: 24px;
 border-radius: 8px;
 background: rgba(255, 255, 255, 0.30);
@@ -162,12 +163,12 @@ text-align: center;
 /* popular section start*/
 .popular{
     max-width: 1250px;
-    width: 100%;
+    width: 50%;
      
     display: flex;
     min-height: 20px;
     margin: 0 auto;
-    justify-content: space-between;
+  
     
     
    
@@ -179,8 +180,8 @@ text-align: center;
     
     align-items: center;
     width: 50%;
-    order: 2;
     
+
 
 
    
@@ -188,9 +189,9 @@ text-align: center;
     
 }
 .popular-image{
-   
+   width: 50%;
     margin: 20px;
-    order: 1;
+   
    
    
 
@@ -361,6 +362,7 @@ font-weight: 800;
 
 }
 .form-container p{
+    width: 100%;
 
     color: #5A5A5D;
 
@@ -372,10 +374,11 @@ padding: 10px;
 
 }
 input{
+    max-width: ;
     width: 393px;
 height: 52px;
 border-radius: 8px;
-background: rgba(19, 19, 24, 0.05);
+
 margin: 10PX;
 
 
@@ -397,6 +400,9 @@ percent{
     gap: 5px;
     
    
+}
+.percent img{
+    object-fit: cover;
 }
 .discount{
     width: 324px;
