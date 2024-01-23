@@ -4,6 +4,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+  
+
     
     
 
@@ -19,7 +22,7 @@ font-family: 'Work Sans', sans-serif;
 }
 /* navvar navvar section start*/ 
 .header-section{
-    max-width: 1250px;
+    max-width: 1170px;
     width: 100%;
      
     display: flex;
@@ -70,28 +73,31 @@ font-weight: 400;
 /* header navver section end */
 
 /* header banner style start*/
-.content{
-    max-width: 1250px;
-    width: 50%;
-     margin: 0 auto;
+.banner-container{
+
+   margin: 0 auto;
+
+    max-width: 1170px;
+    height: 500px;
+   
+
+    
+     
 
 }
-.container{
-    width: 100%;
-    max-width: 1250px;
-    margin: 0 auto;
+
+.banner-text{
    
     
-
-}
-.banner-text{
     max-width: 1250px;
+    height: 100%;
+
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 16px;
+
   
-   
-   
 }
 
 
@@ -116,108 +122,104 @@ padding-top: 106px;
     font-size: 16px;
    
     font-weight: 400;
-    padding-top: 50px;
-    padding-bottom: ;
+    padding-top: 60px;
+    
    padding-left:150px ;
    padding-right: 24px;
 }
+
+/* form start */ 
+
+
+
 .input-box{
-    order: 1;
-    width: 100%;
-    display: inline-flex;
-    padding:50px;
-    padding-left: 140px;
-    gap: 24px;
-border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
+   
+    width: auto 800px;
+    height: auto 84px;
+   margin: 16px;
+    
+ 
+  
+ 
+    border-radius: 8px;
+     background: rgba(255, 255, 255, 0.30);
+    
+  text-align: center;
+  
+
 }
-input{
-    width: 174px;
-height: 52px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #FFF;
-text-align: center;
-}
+
+
+
 .sl{
     width: 174px;
     height: 52px;
-    flex-shrink: 0;
+   
     border-radius: 8px;
     background: #FFF;
     text-align: center;
+}
     
-}
-/*
-.banner{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-*/
+.fa-solid fa-magnifying-glass{
+    width: 24px;
+height: 24px;
 
 
-/* header banner style end */
 
-/* main section start */ 
-/* popular section start*/
-.popular{
-    max-width: 1250px;
-    width: 50%;
-     
-    display: flex;
-    min-height: 20px;
-    margin: 0 auto;
-  
-    
-    
-   
-  
 }
+
+
+/* popular section start */
+
 .popular-content{
-    width: 1250px;
-    margin-top: ;
-    
-    align-items: center;
-    width: 50%;
-    
-
-
-
-   
-
-    
+ 
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
-.popular-image{
-   width: 50%;
-    margin: 20px;
+.popular{
+    display: flex;
+    gap: 5px;
    
-   
-   
-
+}
+.popular div{
+    width: 100%;
+}
+.popular img{
+    width: 100%;
+  margin-right: 5px;
 }
 .popular-title{
     color: #131318;
-
+text-align: center;
 
 font-size: 40px;
 
 font-weight: 800;
-margin: 20px;
-
-
 
 }
 .popular-text{
     color: rgba(19, 19, 24, 0.70);
+    padding: 20px;
 
 font-size: 16px;
 
 font-weight: 400;
 line-height: 26px; 
-gap: 30px;
 
- }
+}
+
+.read{
+    color: #FFF;
+
+text-align: center;
+font-style: normal;
+font-size: 20px;
+
+font-weight: 800;
+
+}
+
  /* popular styles end */
 
  /* destination start */ 
@@ -303,139 +305,112 @@ gap: 30px;
  
  /* card styles */ 
 
- .card-counter{
-    max-width: 1250px;
-    margin: 0 auto ;
-   
- }
- .card-counter{
-    min-width: 400px;
-  
- }
-.single-product1{
-    width: 573px;
-    display: flex;
-
-    width: 30%;
-    border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
-}
-.single-product2{
-    width: 573px;
-height: 284px;
-border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
-    
-}
-.single-product3{
-    width: 573px;
-height: 284px;
-
-width: 573px;
-height: 284px;
-
-}
-.card-section h1{
-    text-align: center;
-    color: #131318;
-text-align: center;
-
-font-size: 40px;
-
-font-weight: 800;
-
-}
-.card-section p{
-    text-align: center;
-    color: rgba(19, 19, 24, 0.70);
-text-align: center;
-
-font-size: 16px;
-
-font-weight: 400;
-
-}
+ 
 
 /*newsletter */ 
-.form{
-    max-width: 1250px;
-    width: 100%;
-     
+
+
+.newsleter{
+   
+    max-width: 1170px;
+    margin: 0 auto;
     display: flex;
-    min-height: 20px;
-    margin: 0 auto; 
-    justify-content: space-between;
+    
+    
+}
+.news-container{
+  margin: 10px;
+    width: 474px;
+height: 422px;
+border-radius: 16px;
+border: 1px solid #FF5400;
+margin-bottom: 70px;
+
 
 
 }
-.form-container{
-   display: grid;
-    align-items: center;
-
-}
-
-.form-container h1{
-    color: #131318;
-
+.news-container h1{
+ color: #131318;
 font-size: 24px;
-
 font-weight: 800;
+margin:40px;
 
 
 }
-.form-container p{
-    width: 100%;
-
-    color: #5A5A5D;
-
+.news-container p{
+    width: 350px;
+ color: #5A5A5D;
 font-size: 16px;
 
 font-weight: 400;
-padding: 10px;
+line-height: 26px; 
+margin: 40px;
+}
+form input{
+
+    
+}
+.form-container{
+ margin: 40px;
+ 
+ 
+
 
 
 }
-input{
-    width: 174px;
-    height: 52px;
-border-radius: 8px;
 
-margin: 10PX;
-
-
-}
-.spe width: 174px;
+form input{
+    width: 393px;
 height: 52px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+text-align: center;
+margin-bottom: 5px;
+
+}
+.subscribe{
+    width: 393px;
+height: 52px;
+
 border-radius: 8px;
 background: #FF5400;
 
 }
-percent{
-    position: relative;
-    min-height: 20px;
+.percent{
+    background-image: url('Rectangle100.png');
    
-    display: flex;
-    align-items: center;
-    width: 50%;
-    gap: 5px;
+    margin-top: 10px;
     
-   
-}
-.percent img{
-    object-fit: cover;
-}
+    width: 672px;
+    height: 422px;
+   border-radius: 16px;
+
+
+} 
+
 .discount{
     width: 324px;
-height: 120px;
+    height: 120px;
+    text-align: center;
+    
 transform: rotate(-19.628deg);
-background-color: #FF5400;
+border-radius: 16px;
+background: #FF5400;
+margin-left:  327px;
+margin-top: 250px;
+
+}
+.discount p{
+    color: #FFF;
+text-align: center;
+
+font-size: 24px;
+
+font-weight: 400;
 
 
 
 }
-
 .discount h1{
     color: #FFF;
 
@@ -444,34 +419,22 @@ font-size: 32px;
 font-weight: 800;
 
 
-}
-.
-.discount p{
-    color: #FFF;
-text-align: center;
-
-font-size: 24px;
-
-font-weight: 400;
-position: absolute;
-
 
 }
-
-
 
 
 
 /* footer css  start */ 
 footer{
 
-    max-width: 1250px;
+    max-width: 1170px;
     width: 100%;
      
     min-height: 20px;
     margin: 0 auto;
     background-color: #5A5A5D;
     text-align: center;
+    
   
  
  }

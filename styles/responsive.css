@@ -1,4 +1,6 @@
-@media screen and (max-width:600px) and (max-width:992px){
+
+@media screen and ( min-width:600px) and  ( max-width:992px){
+
     .header-section{
         flex-direction: column;
         justify-content: center;
@@ -6,29 +8,44 @@
     }
     .items-container{
         flex-direction: column;
-        justify-content: center;
         margin-left: 50px;
         }
-       .input-box{
-        width: 50%;
-        flex-direction: column;
-        justify-content: center;
-        
-       }
-
-       .popular-image img{
-        width: 50%;
-        flex-direction: column;
-        justify-content: center;
-        
-       }
-        .popular-content{
-
+        nav-conatiner{
+            min-height: 20px;
+           
+            display: flex;
+            align-items: center;
             width: 50%;
-        flex-direction: column;
-        justify-content: center;
-        
+            gap: 5px;
+           
         }
+    }
+        @media screen and ( min-width:576px) and  ( max-width:992px){
+            .banner-text{
+                width: 60%;
+                height:100%;
+            }
+
+            .input-box{
+                width: 50%;
+                
+            
+        }
+
+        
+
+
+
+/* popular section*/
+
+
+       @media screen and ( min-width:600px) and  ( max-width:992px) {
+        .popular{
+            flex-direction: column;
+        }
+    }
+   
+
         .single-product1{
 
 
@@ -53,35 +70,7 @@
             justify-content: center;
 
         }
-        .form-container{
-            width: 50%;
-            flex-direction: column;
-            justify-content: center;
-
-
-        }
-        .form-container{
-
-            width: 50%;
-            flex-direction: column;
-            justify-content: center;
-
-        }
-        .percent{
-            width: 50%;
-            flex-direction: column;
-            justify-content: center;
-        }
-        .percent img{
-            display: grid;
-
-            width: 100%;
-            flex-direction: column;
-            justify-content: center;
-
-        }
-
-    }
+        
 
     @media (max-width:600px){
         .container{
@@ -99,7 +88,19 @@
         .gallery .item{
             grid-column: auto;
         }
+        .newsleter{
+            
+            flex-direction: column;
+            
+            align-items: center;
+          
+        }
+        .percent{
+            width: 100%;
+           
+        }
+        }
     }
     
     
-   
+    
