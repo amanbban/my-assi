@@ -22,7 +22,7 @@ font-family: 'Work Sans', sans-serif;
 }
 /* navvar navvar section start*/ 
 .header-section{
-    max-width: 1170px;
+    max-width: 1250px;
     width: 100%;
      
     display: flex;
@@ -225,7 +225,7 @@ font-weight: 800;
  /* destination start */ 
 
  .container{
-    width: 1170px;
+    max-width: 1250px;
     margin: 0 auto;
 
  }
@@ -304,6 +304,103 @@ font-weight: 800;
 
  
  /* card styles */ 
+ .choose{
+    max-width: 1250px;
+    margin: 0 auto;
+    
+}
+.choose h1{
+    color: #131318;
+text-align: center;
+
+font-size: 40px;
+
+font-weight: 800;
+
+}
+.choose p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: 26px; 
+}
+.home-container{
+    display: flex;
+    gap: 24px;
+}
+
+.home{
+    
+ 
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+
+}
+.hotel{
+    
+   margin-top: 32px;
+   margin-left: 32px;
+   
+   width: 64px;
+height: 64px;
+
+    
+}
+.hotel-title {
+   
+    margin-left: 32px;
+
+
+
+}
+.hotel-title h1 {
+    color: #131318;
+text-align: center;
+
+font-size: 24px;
+
+font-weight: 800;
+
+
+
+}
+.hotel-title p{
+    
+    color: #5A5A5D;
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: 26px; 
+
+}
+.best-price{
+    align-items: center;
+}
+.best{
+    
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+
+.best-price{
+    margin-left: 300px;
+    margin-top: 24px;
+    border: 2px solid green;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
 
  
 
@@ -312,7 +409,7 @@ font-weight: 800;
 
 .newsleter{
    
-    max-width: 1170px;
+    max-width: 1250px;
     margin: 0 auto;
     display: flex;
     
@@ -427,7 +524,7 @@ font-weight: 800;
 /* footer css  start */ 
 footer{
 
-    max-width: 1170px;
+    max-width: 1250px;
     width: 100%;
      
     min-height: 20px;
