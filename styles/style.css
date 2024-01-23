@@ -30,6 +30,18 @@ font-family: 'Work Sans', sans-serif;
     margin: 0 auto;
   
 }
+.check-btn{
+    font-size: 30px;
+    color: ;
+    float: ;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#checkbox{
+    display: none;
+}
 .nav-conatiner{
     min-height: 20px;
    

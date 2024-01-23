@@ -23,21 +23,36 @@
         @media screen and ( min-width:600px) and  ( max-width:992px){
             .banner-text{
                 width: 100%;
-                height:100%;
+                height: 550px;
+                
                
                
             }
 
-            .input-box{
-                width: 100%;
+            .form1{
+                
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+                gap: 16px;
+                
+             }
+               
+            
                 
             
         }
 
         
+        
+
+        @media screen and ( max-width:600px){
+            .check-btn{
+                display: block;
+               
+
+            }
         }
-
-
             
 
 
